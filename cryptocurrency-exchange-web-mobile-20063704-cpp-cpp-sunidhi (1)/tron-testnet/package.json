@@ -1,0 +1,26 @@
+{
+  "name": "tron_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.15.0",
+    "cors": "^2.8.5",
+    "detect-port": "^1.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.10",
+    "mongoose-paginate": "^5.0.3",
+    "nodemailer": "^6.3.0",
+    "tronweb": "^2.7.1",
+    "twilio": "^3.35.0"
+  }
+}

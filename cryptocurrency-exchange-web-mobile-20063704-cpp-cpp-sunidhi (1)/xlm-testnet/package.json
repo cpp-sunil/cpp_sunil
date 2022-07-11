@@ -1,0 +1,25 @@
+{
+  "name": "stellar_services",
+  "version": "1.0.0",
+  "description": "Stellar nodejs services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "vaibhav verma",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bignumber.js": "7.0.1",
+    "convict": "^4.0.2",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.1",
+    "randomstring": "1.1.5",
+    "stellar-sdk": "0.8.0",
+    "twilio": "^3.14.0"
+  }
+}

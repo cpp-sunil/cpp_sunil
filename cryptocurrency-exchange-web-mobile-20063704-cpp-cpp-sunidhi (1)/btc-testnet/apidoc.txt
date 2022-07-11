@@ -1,0 +1,54 @@
+1. generate address
+   url - 172.16.21.1:3000/btc/newaddress/12345
+   method - get
+   res - 
+{
+  "code": 200,
+  "address": "2NAX8icWHsVX3xBDV15T2ZdMQxkQLAE2UwU"
+}
+
+2. get balance 
+   url - 172.16.21.1:3000/btc/addr_balance/2MuibqsyiuTnbjsGxfntUJRS8YTknJt2E3U
+   method - get 
+   res - 
+      {
+  "code": 200,
+  "message": "Success",
+  "balance": 0
+}
+
+
+3. transfer
+   url - 172.16.21.1:3000/btc/transfer
+   method - post
+   req - 
+     {
+    "SendFrom":"2MuibqsyiuTnbjsGxfntUJRS8YTknJt2E3U",
+    "SendTo":"2MuibqsyiuTnbjsGxfntUJRS8YTknJt2E3U"
+}
+
+   res - 
+    {
+  "code": 200,
+  "tx-hash": "809a947cdbaa5db96bfa91e41a8dbeb888925cf8fb090fe9e22ce4f131f08d91",
+  "fee": 0.00001,
+  "sent-amount": 0.00100124
+}
+
+4. withdraw
+   url - 172.16.21.1:3000/btc/withdraw
+   method - post
+   req -
+     {
+    "SendFrom":"2MuibqsyiuTnbjsGxfntUJRS8YTknJt2E3U",
+    "SendTo":"2N4sG2siNdFcBsq4AFYt4nHtVZv9iGdx6xA",
+    "AmountToTransfer":"0.0000115",
+    "ChangeAddress":"2MuibqsyiuTnbjsGxfntUJRS8YTknJt2E3U"
+}
+
+   res -
+     {
+  "code": 200,
+  "tx-hash": "0ba380f458e3882c48a82e1c49f172ba8e4e8eb27139c86c38c4061d52f31aaf",
+  "fee": 0.00000256
+}

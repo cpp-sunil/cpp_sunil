@@ -1,0 +1,30 @@
+{
+  "name": "ripple_services",
+  "version": "1.0.0",
+  "description": "Ripple nodejs services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.3",
+    "bignumber.js": "^7.0.1",
+    "convict": "^4.4.1",
+    "crypto": "1.0.1",
+    "express": "^4.17.1",
+    "fcm-node": "^1.2.1",
+    "jsonschema": "1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.8",
+    "morgan": "^1.9.1",
+    "node-cron": "^1.2.1",
+    "node-fetch": "^2.1.1",
+    "randomstring": "1.1.5",
+    "request": "^2.83.0",
+    "ripple-lib": "^1.2.4",
+    "twilio": "^3.14.0"
+  }
+}

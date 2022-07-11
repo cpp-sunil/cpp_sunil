@@ -1,0 +1,32 @@
+{
+  "name": "cryptowallets",
+  "version": "1.0.0",
+  "description": "Integration of various crypto coins wallet (BTC, LTC, ETH)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Imran Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "auth": "0.0.9",
+    "bitcoin": "^3.0.1",
+    "bitcoin-core": "^2.2.0",
+    "bitcore-lib": "^8.6.0",
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "litecoin": "^2.0.4",
+    "node-cmd": "^3.0.0",
+    "omni": "^0.2.6",
+    "omnicore-rpc-client": "file:omnicore-rpc-client",
+    "omnilayer-client": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "nodemon": "^1.19.1"
+  }
+}

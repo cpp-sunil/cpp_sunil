@@ -1,0 +1,21 @@
+{
+    
+    "Tether": {
+      "testnet": {
+        "username": "user",
+        "password": "pass",
+        "network": "regtest",
+        "port": 8332,
+        "host":"172.16.21.76"
+        
+      },
+      "mainnet": {
+        "username": "",
+        "password": "",
+        "network": "mainnet",
+        "port": 8332
+      }
+    }
+    
+    
+}

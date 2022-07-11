@@ -1,0 +1,22 @@
+{
+    
+  "Dash": {
+    "testnet": {
+      "username": "chirag",
+      "password": "whoami",
+      "network": "testnet",
+      "port": 19998,
+      "host":"172.16.21.9"
+    },
+    "mainnet": {
+      "username": "da12shuser",
+      "password": "odfjoise30rie9f",
+      "network": "mainnet",
+      "port": 9999,
+      "host":"108.128.137.160"
+    }
+  }
+    
+    
+}
+

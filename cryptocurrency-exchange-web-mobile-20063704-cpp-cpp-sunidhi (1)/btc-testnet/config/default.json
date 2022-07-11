@@ -1,0 +1,136 @@
+{
+    "Bitcoin": {
+      "testnet": {
+        "username": "rpcuser",
+        "password": "password",
+        "network": "testnet",
+        "host":"172.16.21.1",
+        "port": 18332
+      },
+      "mainnet": {
+        "username": "imran",
+        "password": "whoami",
+        "network": "mainnet",
+        "port": 8332
+      }
+    },
+    "Litecoin": {
+      "testnet": {
+        "username": "imran",
+        "password": "whoami",
+        "network": "regtest",
+        "port": 19332
+      },
+      "mainnet": {
+        "username": "imran",
+        "password": "whoami",
+        "network": "mainnet",
+        "port": 9332
+      }
+    },
+    "VergeCurrency": {
+      "testnet": {
+        "username": "imran",
+        "password": "rahman",
+        "network": "regtest",
+        "port": 20102
+      },
+      "mainnet": {
+        "username": "imran",
+        "password": "rahman",
+        "network": "mainnet",
+        "port": 20102
+      }
+    },
+    "Dash": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 19998
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 9998
+      }
+    },
+    "BitcoinDiamond": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 17116
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 7116
+      }
+    },
+    
+    "BitcoinGold": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 18332
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 8332
+      }
+    },
+
+     
+    "Qtum": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 13889
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 3889
+      }
+    },
+    "Monacoin": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 19402,
+        "host":"172.16.0.194"
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 9402,
+        "host":"172.16.0.194"
+      }
+    },
+    "Stratis": {
+      "testnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "regtest",
+        "port": 18332
+      
+      },
+      "mainnet": {
+        "username": "Manish",
+        "password": "Manish",
+        "network": "mainnet",
+        "port": 1995
+      
+      }
+    }
+}
